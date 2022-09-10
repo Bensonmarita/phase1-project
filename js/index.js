@@ -45,3 +45,22 @@ function findMeals(data){
     .then(resp => resp.json())
     .then(data=>{
         //console.log(data)
+        let data1=""
+        if(data.meals){
+        data.meals.forEach(meal => {
+           data1 +=  ` <div data-id="${meal.idMeal}"  class = "meal-item">
+                               <div class= "meal-image">
+                           
+                            <img src="${meal.strMealThumb}" class="img-rounded" id="image"> </div>
+                            <div class="meal-name">  
+                            <h3> ${meal.strMeal} </h3> 
+                               <a class = "recipe-btn">Get Recipe</a>
+                               
+                               
+                               
+                               </div>
+                           </div>
+                               `
+           
+       })
+                      mealContainer.classList.remove('not-found');
