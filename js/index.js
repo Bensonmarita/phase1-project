@@ -60,8 +60,22 @@ function findMeals(data){
                                
                                </div>
                            </div>
-                               `
+                            
            
        })
                       mealContainer.classList.remove('not-found');
                       
+  
+                    }
+
+                }
+                                    function getRecipeMeals(meal){
+                                        console.log(meal);
+                                        meal = meal[0];
+                                        let data1="";
+                                        data1 = `<h2 class = "recipe-title">${meal.strMeal}</h2>
+                                        <p class = "recipe-category">${meal.strCategory}</p>
+                                        <div class = "recipe-instruct">
+                                            <h3>Instructions:</h3>
+                                            <p>${meal.strInstructions}</p>
+                                        </div>
