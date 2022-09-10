@@ -42,3 +42,18 @@ body{
 #box-container h2{
     color: whitesmoke;
 }
+#box-container{
+    font-style: oblique;
+    font-size: 12px;
+    color: #0d6efd;
+} /*
+#meals-container {
+    flex: 33.33%;
+    padding: 5px;
+}*/
+.wrapper{
+    text-align: center;
+    padding: 2rem;
+    background: scroll;
+    max-width: 1200px;
+}
