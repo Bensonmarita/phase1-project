@@ -64,3 +64,4 @@ function findMeals(data){
            
        })
                       mealContainer.classList.remove('not-found');
+                      
