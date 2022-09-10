@@ -79,3 +79,19 @@ function findMeals(data){
                                             <h3>Instructions:</h3>
                                             <p>${meal.strInstructions}</p>
                                         </div>
+                                        <div class = "recipe-meal-img">
+                                        <img src = "${meal.strMealThumb}" alt = "">
+                                    </div>
+                                    <div class = "recipe-link">
+                                        <a href = "${meal.strYoutube}" target = "_blank">Watch Video</a>
+                                    </div>
+                                   
+                                    `
+                                   
+                                    mealContent.innerHTML=data1;
+                                    mealContent.parentElement.classList.add('showRecipe');
+                                   
+            
+            
+            }
+            
