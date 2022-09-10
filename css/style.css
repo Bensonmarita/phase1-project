@@ -21,4 +21,18 @@ body{
 #image{
     height: 300px;
     width: 300px;
+}#meals-container{
+    margin-top: 100px;
+    width: 100%;
+    display: grid;
+    grid-gap: 30px;
+    grid-template: auto / repeat(auto-fit, minmax(300px, 1fr));
+    
+   
+ 
+ }
+ #heading{
+    font-style: italic;
+    color: whitesmoke;
+    font-size: 70px;
 }
