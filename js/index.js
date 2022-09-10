@@ -21,4 +21,16 @@ document.addEventListener("DOMContentLoaded",() =>{ form.addEventListener("submi
    mealContainer.addEventListener('click',getRecipe)
    searchRecipe.addEventListener("click",(e) => {
    mealContent.parentElement.classList.remove('showRecipe');
-   
+})
+likeButton.addEventListener('click', () => {
+   // alert(4)
+ let integer = 0;
+ integer += 1
+ countLikes.innerHTML = `${integer} likes`;
+ //getRecipeMeals()
+ 
+ 
+
+})
+
+})
