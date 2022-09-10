@@ -1,3 +1,5 @@
+
+
 let form = document.querySelector("form")
 let searchBtn = document.getElementById("btn-search")
 let mealContainer = document.querySelector("#meals-container")
