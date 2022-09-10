@@ -34,3 +34,14 @@ likeButton.addEventListener('click', () => {
 })
 
 })
+function findMeals(data){
+    let searchInput = document.getElementById("search-input").value.trim();
+
+
+
+    fetch(`https://www.themealdb.com/api/json/v1/1/filter.php?i=${searchInput}`)
+        
+
+    .then(resp => resp.json())
+    .then(data=>{
+        //console.log(data)
